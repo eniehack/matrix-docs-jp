@@ -1,0 +1,4 @@
+baseURL = 'http://wiki.matrix-jp.net/'
+languageCode = "ja"
+title = 'matrix-docs-jp'
+theme = "book"

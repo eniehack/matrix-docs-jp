@@ -1,0 +1,20 @@
+====== go-neb ======
+
+===== 概要 =====
+
+[[https://github.com/matrix-org/go-neb|go-neb]]はmatrix.orgが公式に開発している拡張性のあるBotです。Golangで書かれています。アラームやRSS購読、Giphy転載などの標準機能のほか、WebHookを用いて独自の機能を持ったBotをMatrixのAPIを学ぶことなく開発することができます。
+
+===== 関連記事 =====
+
+==== for Developer ====
+
+  * [[develop-goneb-bot|go-nebを用いてBotを開発する]]
+  * [[goneb-rss-bot|go-nebを用いてBotにRSSを購読させる]]
+
+==== for Server Admin ====
+
+  * [[install-goneb|go-nebをインストールする]]
+
+
+
+

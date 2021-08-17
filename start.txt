@@ -1,0 +1,76 @@
+====== Welcome to Matrix-jp.net! ======
+
+matrix-jp.netにようこそ！ここはmatrix.orgの規格やサーバ、クライアント、matrix-jp.netについてまとめる日本語のWikiです。
+
+
+===== 初めての方へ =====
+
+[[faq|FAQ]]を先にお読みいただくことをお勧めします。
+
+===== for User =====
+
+
+  * [[what_is_matrix|Matrixとは？]]
+  * [[use_matrix|Matrixを使ってみる]]
+    * [[https://crim0404.blogspot.com/2021/03/matrix_25.html|くりむさんによる「matrixの初め方」]]
+    * [[https://lemmy.juggler.jp/post/786|tateisuさんによる記事「ガイド：ElementのPCデスクトップ版をインストールしてアカウントを作って部屋に入るまで」]]
+  * [[instance|主なMatrixインスタンス]]
+  * 主な公開部屋リスト
+    * [[https://matrix-room-list-jp.netlify.app/|tateisuさんによる日本matrix勢の公開部屋リスト]]
+  * 主なMatrixクライアント
+    * [[web-client|Web]]
+    * [[desktop-client|PC]]
+    * [[mobile-client|スマホ]]
+    * [[other-platform-client|その他]]
+  * [[bridges|Bridgesとは？]]
+
+===== for Developer =====
+
+
+  * Matrixの仕様
+  * カスタムステッカー
+    * [[https://windish.kibe.la/shared/entries/18649f13-86b2-43af-8b41-89f6eb391121|やまこさんによる「Matrixにカスタムスタンプを設定する」]]
+    * [[https://lemmy.juggler.jp/post/818|tateisuさんによる「カスタムステッカーパックを作って/使ってみる」]]
+    * [[https://matrix.juggler.jp/stickerChanger.html?name=%E3%81%AA%E3%81%8B%E3%82%88%E3%81%97%20%E3%81%8A%E3%81%AD%E3%81%88%E3%81%95%E3%82%93%E3%81%9F%E3%81%A1%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97&sender=%40yamako%3Amatrix.fedibird.com&url=https%3A%2F%2Fywindish.github.io%2Fstickerpicker%2Fweb%2F%3Ftheme%3D%24theme|tateisuさんによる「Matrix sticker changer」]]
+
+==== Bot開発 ====
+
+
+  * Botの作り方
+    * Botフレームワーク
+
+==== クライアント開発 ====
+
+  * matrixクライアントの作り方
+    * SDK
+
+==== サーバ開発 ====
+
+  * Matrixサーバの作り方
+
+===== for Server Admin =====
+
+==== サーバ構築 ====
+
+  * Synapseの構築
+    * on Docker
+      * [[https://lemmy.juggler.jp/post/759|tateisuさんによるSynapse on Docker構築メモ]]
+    * [[install-synapse-on-debian-using-apt|aptを用いたDebianでの構築]]
+    * [[https://lemmy.juggler.jp/post/794|URLプレビューを有効にする]]
+    * [[https://lemmy.juggler.jp/post/864/comment/562|tateisuさんによる記事「ホームサーバのホスト名からWebUIを開く方法」]]
+      * `{FQDN}/_matrix/client/`からサーバが用意するwebクライアントのリンクへのリダイレクト方法が書かれています。
+  * Dendriteの構築
+  * STUN/TURNサーバの構築
+    * [[https://lemmy.juggler.jp/post/769|tateisuさんによるTURNサーバ構築メモ]]
+
+==== Webクライアント構築 ====
+
+  * [[install-riot|Riotの構築]]
+
+==== Botの構築 ====
+
+  * [[go-neb|go-neb]]
+
+===== for Wiki contributor =====
+
+  * Wikiの編集方法

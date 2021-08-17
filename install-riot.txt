@@ -1,0 +1,12 @@
+====== Elementの構築 ======
+
+ElementはReact製のMatrixウェブクライアントで、Matrix-React-SDKによって開発されているようです。Element社というMatrixの開発を支援する企業が主体となって開発しています。
+
+===== Elementの更新 =====
+
+ElementはGitHubの公式リポジトリからアーカイブをダウンロードして解凍するだけで使用可能なので、更新スクリプトが様々な人ににょって作成されています。
+
+  * [[https://matrix.to/#/@murz:ru-matrix.org|@murz:ru-matrix.org]] 氏作Bash製アップデートスクリプト https://gist.github.com/MurzNN/ee64f98ab2e71b886c41d55594e5dd9e
+  * [[https://matrix.to/#/@satsuki:iro.moe|さつき]] 氏作Bash製アップデートスクリプト https://pastebin.com/PtYQmXSq 
+    * 15行目 <code bash>mv riot-* live</code>を<code bash>mv element-* live</code>へ修正することでElementへの対応が可能である。
+

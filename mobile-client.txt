@@ -1,0 +1,37 @@
+===== スマートフォン向けクライアント =====
+
+==== Android ====
+
+=== Riot ===
+
+|公式サイト|[[https://about.riot.im]]|
+|作者|[[https://vector.im|Vector.im]]|
+|開発言語|Java, Kotlin|
+|ソースコード|[[https://github.com/vector-im/riot-android|GitHub]]|
+|動作環境|Android 4.1 以降|
+|ダウンロード| [[https://f-droid.org/app/im.vector.alpha|F-Droid]], [[https://play.google.com/store/apps/details?id=im.vector.app|Play Store]] |
+
+=== RiotX ===
+
+Riot-Androidを置き換えるべく作られているクライアント。まだベータ版のため、通話や細かい設定などができない。
+
+|公式サイト|[[https://about.riot.im]]|
+|作者|[[https://vector.im|Vector.im]]|
+|開発言語|Kotlin, Java|
+|ソースコード|[[https://github.com/vector-im/riotX-android|GitHub]]|
+|動作環境|Android 4.4 以降|
+|ダウンロード| [[https://f-droid.org/app/im.vector.riotx|F-Droid]], [[https://play.google.com/store/apps/details?id=im.vector.riotx|Play Store]] |
+
+==== iOS ====
+
+=== Riot ===
+
+|公式サイト|[[https://about.riot.im]]|
+|作者|[[https://vector.im|Vector.im]]|
+|開発言語|Java and Kotlin|
+|ソースコード|[[https://github.com/vector-im/riot-ios|GitHub]]|
+|動作環境|iOS 10.0 以降|
+|ダウンロード|[[https://apps.apple.com/us/app/riot-open-source-collaboration/id1083446067|App Store]]|
+
+
+

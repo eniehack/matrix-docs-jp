@@ -1,0 +1,64 @@
+====== go-nebのインストール ======
+
+ここではGolangの環境がないマシンにGolangの環境構築からgo-nebインストールまでを解説するページです。
+想定OSはDebian 10です。そのため他OSの方は適宜読み替えるなどしてください。
+
+===== Golangの環境構築 =====
+
+Golangバージョン1.14以降が必要です。
+
+<code>
+# apt install golang-go libsqlite3-dev
+</code>
+
+==== 環境変数の編集 ====
+
+<code>
+export GOPATH=~/.go
+export PATH=$PATH:$GOPATH/bin
+</code>
+
+あくまでもGOPATHは慣例に習っただけなので自由に指定してもらって大丈夫です。
+
+===== インストール =====
+
+==== ビルド ====
+
+<code>
+$ git clone https://github.com/matrix-org/go-neb
+$ cd go-neb
+$ go build github.com/matrix-org/go-neb
+</code>
+
+===== 設定 =====
+
+==== .serviceファイルの作成（optional） ====
+
+
+===== 実行 =====
+
+<code>
+$ sudo systemctl start go-neb
+</code>
+
+.serviceファイルを作成しなかった場合、実行時に環境変数を指定することで実行させることができます。以下が例です。
+
+<code>
+$ BIND_ADDRESS=:4050 DATABASE_TYPE=sqlite3 DATABASE_URL=go-neb.db?_busy_timeout=5000 BASE_URL=https://example.com ./go-neb
+</code>
+
+===== 関連ページ =====
+
+
+===== 参考文献 =====
+
+  * [[https://www.mytinydc.com/index.php/en/2019/08/04/go-neb-bot-installation-for-synapse-matrix-arm64/#page-content|go-neb bot Installation for Synapse-Matrix (arm64) - MyTinyDC]]
+  * [[https://github.com/matrix-org/go-neb|matrix-org/go-neb: Extensible matrix bot written in Go]]
+
+
+
+
+
+
+
+

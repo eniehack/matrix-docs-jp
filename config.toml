@@ -1,4 +1,4 @@
-baseURL = 'http://wiki.matrix-jp.net/'
+baseURL = 'http://matrix-docs-jp.netlify.app/'
 languageCode = "ja"
 title = 'matrix-docs-jp'
 theme = "book"

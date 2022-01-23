@@ -1,6 +1,13 @@
-# Welcome to Matrix-jp.net!
+# Welcome to matrix-docs-jp.netlify.app!
 
-matrix-jp.netにようこそ！ここはmatrix.orgの規格やサーバ、クライアント、matrix-jp.netについてまとめる日本語のWikiです。
+~~matrix-jp.netにようこそ！~~
+matrix-jp.netは2021/9/25に閉鎖されました。
+wiki.matrix-jp.netのドキュメントをGitHubリポジトリ、netlifyへそのまま移行した上で公開しています。
+
+ここはmatrix.orgの規格やサーバ、クライアントなどについてまとめる日本語のWikiです。
+[GitHubのリポジトリ](https://github.com/eniehack/matrix-docs-jp)にissueやPull Requestを投げることで誰でも編集に参加できます。
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この サイト は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
 
 ## 初めての方へ
 

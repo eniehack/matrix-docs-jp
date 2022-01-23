@@ -3,7 +3,7 @@ languageCode = "ja"
 title = 'matrix-docs-jp'
 theme = "book"
 enableGitInfo = true
-disableKinds = ['taxonomy', 'taxonomyTerm']
+disableKinds = ['taxonomy', 'taxonomyTerm', "RSS"]
 
 [menu]
 [[menu.after]]

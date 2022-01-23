@@ -1,5 +1,9 @@
 # FAQ
 
+{{< hint warning >}}
+matrix-jp.netは閉鎖されました。このページは古い情報を取り扱っている場合があります。
+{{< /hint >}}
+
 こちらのページはmatrix-jp.net全体に関連するよくいただく質問に回答するページです。
 
 ## matrix-jp.netとは
@@ -35,5 +39,4 @@ URLの欄に `https://matrix-jp.net`
 
 ## 連絡先
 
-お気付きの点や、運営の助言等ございましたら、運営者の[Nakaya](https://eniehack.net/)、ねがお、もしくは[Matrix
-Research-jp](https://matrix.to/#/#matrix-research:matrix-jp.net)までお願いします。
+お気付きの点や、運営の助言等ございましたら、運営者の[Nakaya](https://eniehack.net/)、[GitHubリポジトリ](https://github.com/eniehack/matrix-docs-jp)のissue、Pull Requestまでお願いします。

@@ -2,3 +2,13 @@ baseURL = 'http://matrix-docs-jp.netlify.app/'
 languageCode = "ja"
 title = 'matrix-docs-jp'
 theme = "book"
+enableGitInfo = true
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+[menu.after]
+name = "GitHub"
+url = "https://github.com/eniehack/matrix-docs-jp"
+weight = 10
+
+[params]
+BookRepo = 'https://github.com/eniehack/matrix-docs-jp'

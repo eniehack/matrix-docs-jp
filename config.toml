@@ -5,7 +5,8 @@ theme = "book"
 enableGitInfo = true
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
-[menu.after]
+[menu]
+[[menu.after]]
 name = "GitHub"
 url = "https://github.com/eniehack/matrix-docs-jp"
 weight = 10
